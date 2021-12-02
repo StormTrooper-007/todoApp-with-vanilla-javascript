@@ -1,0 +1,154 @@
+body{
+      display: flex;
+      margin: 0;
+      box-sizing: border-box;
+      height: 100vh;
+      overflow: auto;
+      background-color: gray;
+      overflow-x:hidden;
+}
+
+.container{
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+      padding-right: 250px;
+      padding-left: 50px;
+}
+
+
+.input-banner{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: black;
+      margin: 10px 20px 0px 20px;
+      height: 100px;
+      min-width: 100%;
+      margin-left: 220px;
+}
+
+#heading-text{
+      color: white;
+      white-space: nowrap;
+      position: absolute;
+      left: 420px;
+      top: 15px;
+      font-size: 30px;
+      font-family: 'Patua One', cursive;
+}
+
+input{
+      width: 300px;
+      margin-top: 40px;
+      margin-left: 230px;
+      height: 17px;
+      border: none;
+      background-color: #E6E6FA;
+      padding:10px;
+      border-radius: 20px;
+      position: relative;
+      right: 50px;
+}
+
+input:focus {
+      outline:none;
+  }
+
+
+.list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 20px 10px 20px;
+      min-width: 100%;
+      margin-left: 220px;
+      margin-top: 0;
+}
+
+.item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      width: 100%;
+      background-color: whitesmoke; 
+      border-top: 1px solid whitesmoke;
+      border-bottom:1px solid whitesmoke;
+      font-family: 'Architects Daughter', cursive;
+}
+
+.item:hover{
+      background-color: #E6E6FA;
+}
+
+#delete{
+      border: none;
+      background-color: inherit;
+      margin:20px;
+}
+
+#complete{
+      border: none;
+      background-color: inherit;
+      margin: 10px;
+      font-size: 20px;
+}
+
+#mark{
+      font-size:20px;
+      margin:20px;
+}
+
+#text{
+      color: #E6E6FA;
+      text-align: center;
+}
+
+#btn{
+      margin-left: 200px;
+      border: none;
+      background-color: #00FA9A;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 15px;
+      border: none;
+      outline:none;
+      border-radius: 10px;
+      font-family: 'Patua One', cursive;
+}
+
+#add{
+      font-weight: bold;
+      font-size: 17px;
+      background-color: #FF6347;
+      border: none;
+      outline:none;
+      color: white;
+      width: 150px;
+      padding:10px;
+      border-radius: 20px;
+      font-family: 'Patua One', cursive;
+      position: relative;
+      right:50px;
+}
+
+#text{
+      color: #E6E6FA;
+      text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
